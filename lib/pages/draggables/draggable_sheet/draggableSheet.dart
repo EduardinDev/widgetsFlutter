@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+// DraggableWidget: este widget es un ejemplo de como implemente un draggable sin
+// ninguna libreria de por medio
+
+
 class DraggableWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
