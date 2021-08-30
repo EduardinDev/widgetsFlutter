@@ -1,6 +1,9 @@
-import 'package:draggablesheet/pages/sidebars/sidebar_provider/favouritesPage.dart';
+
+import 'package:draggablesheet/pages/sidebars/sidebar_provider/inicio.dart';
 import 'package:draggablesheet/pages/sidebars/sidebar_provider/navigation_item.dart';
-import 'package:draggablesheet/pages/sidebars/sidebar_provider/peoplePage.dart';
+import 'package:draggablesheet/pages/sidebars/sidebar_provider/pages/favouritesPage.dart';
+import 'package:draggablesheet/pages/sidebars/sidebar_provider/pages/peoplePage.dart';
+
 import 'package:draggablesheet/pages/sidebars/sidebar_provider/provider/navigation_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -24,6 +27,11 @@ class _SidebarProviderState extends State<SidebarProvider> {
 
       case NavigationItem.favourites:
         return FavouritesPage();
+
+      case NavigationItem.sign_out:{
+        return InicioPage();
+      }
+        
 
       default:
         {

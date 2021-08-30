@@ -69,6 +69,14 @@ class NavigationDrawerWidget extends StatelessWidget {
                     icon: Icons.notifications_outlined,
                     //onClicked: () => selectedItem(context, 5),
                   ),
+                  const SizedBox(height: 16),
+                  buildMenuItem(
+                    context,
+                    item: NavigationItem.sign_out,
+                    text: 'Sign Out',
+                    icon: Icons.close,
+                    //onClicked: () => selectedItem(context, 5),
+                  ),
                 ],
               ),
             )
