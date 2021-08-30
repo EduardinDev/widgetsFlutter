@@ -12,6 +12,7 @@ class _SidebarBlueState extends State<SidebarBlue> {
     drawer: NavigationDrawerWidget(),
     appBar: AppBar(
       title: Text('Navigation Drawer'),
+      centerTitle: true,
     ),
   );
 }
